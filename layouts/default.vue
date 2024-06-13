@@ -1,0 +1,13 @@
+<template>
+    <Header/>
+    <slot/>
+    <Footer/>
+</template>
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    font-family: 'Raleway', sans-serif;
+}
+</style>
