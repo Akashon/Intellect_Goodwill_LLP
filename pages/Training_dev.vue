@@ -1,6 +1,6 @@
 <template>
     <div class="w-full">
-        <div class="w-full bg-center bg-cover h-96" style="background-image: url(/images/training1.jpg);">
+        <div class="w-full bg-center bg-cover h-96" style="background-image: url(/images/training.png);">
             <div class="flex items-center justify-center w-full h-full bg-[#0D1057] bg-opacity-50">
                 <div class="max-w-7xl">
                     <h1 class="text-4xl mt-16 font-bold text-left text-white"><span class="text- text-5xl">Training &

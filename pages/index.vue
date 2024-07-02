@@ -1,5 +1,9 @@
 <template>
 
+    <!-- POPUP DISCLAMER START -->
+    <PopupDisclaimer />
+    <!-- POPUP DISCLAMER END -->
+
     <div class="bg-gradient-to-b ">
         <section class="py-10 sm:py-16 lg:py-32">
             <div class="px-4 mx-auto max-w-screen-xl sm:px-6 lg:px-8">
@@ -227,23 +231,26 @@
     <!-- OUR SECTION END -->
 
     <div class="bg-[#021D39]" id="section1">
-        <section class="relative block px-6 py-10 md:py-20 md:px-10  border-t border-b border-neutral-900 bg-neutral-900/30">
+        <section
+            class="relative block px-6 py-10 md:py-20 md:px-10  border-t border-b border-neutral-900 bg-neutral-900/30">
             <div class="relative mx-auto max-w-5xl text-center">
                 <span class="text-gray-400 my-3 flex items-center justify-center font-medium uppercase tracking-wider">
-                    Recent Posts 
+                    Recent Posts
                 </span>
                 <!-- <h2 class="block w-full bg-gradient-to-b from-white to-gray-400 bg-clip-text font-bold text-transparent text-3xl sm:text-4xl">
                     Exploring Innovations in Technology
                 </h2> -->
-                <h1 class="lg:text-5xl text-4xl lg:mb-6 mb-12 font-bold text-white text-center">Exploring Innovations in Technology</h1>
+                <h1 class="lg:text-5xl text-4xl lg:mb-6 mb-12 font-bold text-white text-center">Exploring Innovations in
+                    Technology</h1>
 
-                <p class="mx-auto my-4 w-full max-w-xl bg-transparent text-center font-medium leading-relaxed tracking-wide text-gray-400">
+                <p
+                    class="mx-auto my-4 w-full max-w-xl bg-transparent text-center font-medium leading-relaxed tracking-wide text-gray-400">
                     Feel free to give more information if you need something specific!
                 </p>
             </div>
             <div class="relative mx-auto max-w-7xl z-10 grid grid-cols-1 gap-10 pt-14 sm:grid-cols-2 lg:grid-cols-3">
-                <div class="rounded-md border border-white bg-[#021D39] p-8 text-center shadow"
-                    v-for="blog in blogs" :key="blog">
+                <div class="rounded-md border border-white bg-[#021D39] p-8 text-center shadow" v-for="blog in blogs"
+                    :key="blog">
                     <div class="button-text mx-auto flex h-12 w-12 items-center justify-center rounded-md border "
                         style="background-image: linear-gradient(rgb(80, 70, 229) 0%, rgb(43, 49, 203) 100%); border-color: rgb(93, 79, 240);">
                         <div v-if="blog.icon">
@@ -251,7 +258,8 @@
                         </div>
                     </div>
                     <h3 class="mt-6 mb-6 text-white">{{ blog.title }}</h3>
-                        <a :href="blog.link" class="text-blue-200 hover:text-blue-400 duration-500">Learn More <i class="fa fa-arrow-circle-right "></i></a>
+                    <a :href="blog.link" class="text-blue-200 hover:text-blue-400 duration-500">Learn More <i
+                            class="fa fa-arrow-circle-right "></i></a>
                 </div>
             </div>
             <div class="absolute bottom-0 left-0 z-0 h-1/3 w-full border-b"
@@ -401,7 +409,7 @@ export default {
                     icon: 'fa-solid fa-champagne-glasses',
                     title: 'WORLD INTELLECTUAL PROPERTY DAY CELEBRATION',
                     link: 'recent-post/world-intellectual-property-day-celebration'
-                }, 
+                },
                 {
                     icon: 'fa-solid fa-scale-unbalanced',
                     title: 'Sip of Justice in a Battle of Premium Whiskeys: Analysing the scope of Deceptive Similarity',
@@ -416,12 +424,12 @@ export default {
                     icon: '',
                     title: 'Dumplings of Delight: Famous ‘Dolma’ Aunty wins trade mark battle over her iconic momos’ joint name',
                     link: 'recent-post/dumplings-of-delight'
-                }, 
+                },
                 {
                     icon: 'fa-solid fa-globe',
                     title: 'AI cannot be an inventor of a patent, rules UK Supreme Court',
                     link: 'recent-post/ai-cannot-be-an-inventor'
-                }, 
+                },
                 {
                     icon: 'fa-regular fa-copyright',
                     title: 'In addition to registered brands, now un-registered food brands also to attract 5% GST',
