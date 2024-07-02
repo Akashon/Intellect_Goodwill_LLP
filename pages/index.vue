@@ -1,7 +1,9 @@
 <template>
 
     <!-- POPUP DISCLAMER START -->
-    <PopupDisclaimer />
+     <div>
+        <PopupDisclaimer />
+     </div>
     <!-- POPUP DISCLAMER END -->
 
     <div class="bg-gradient-to-b ">
@@ -36,7 +38,7 @@
 
                     <div data-aos="zoom-in" data-aos-duration="1200">
                         <!-- <img class="w-full" src="https://images.lawpath.com.au/2022/10/Hero_About-us-min.png" alt="" /> -->
-                        <iframe width="660" height="450" class="rounded-xl w-96 lg:w-full"
+                        <iframe width="660" height="450" class="rounded-xl w-full"
                             src="https://www.youtube.com/embed/kS0544wPpyI?si=iSIl-MtyfaULZ5A4"
                             title="YouTube video player" frameborder="0"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -270,61 +272,7 @@
             </div>
         </section>
     </div>
-
-    <!-- OUR BLOGS SECTION START -->
-    <!-- <div class="mx-auto max-w-screen-xl my-12 py-12 lg:px-0 px-8 border border-[#021D39] rounded-xl"
-        data-aos="zoom-in-up" data-aos-duration="1000">
-        <h1 class="lg:text-5xl text-4xl lg:mb-24 mb-12 font-bold text-[#021D39] text-center">OUR BLOGS</h1>
-        <div
-            class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 lg:gap-y-16 gap-y-6 lg:mx-0 lg:max-w-none lg:grid-cols-2 items-center">
-            <div class="lg:px-8 lg:py-4  ">
-                <div class="lg:max-w-xl">
-                    <h2 class="text-base font-semibold leading-7 text-[#021D39] ">Blogs</h2>
-                    <p class="lg:mb-12 mb-6 mt-6 lg:text-xl text-md leading-8 text-black">A ‘Bhidu’ Anecdote: Analysis
-                        of
-                        Personality Rights
-                        your podcast production workflow.
-                        <a href="javascript:void(0)"
-                            class="inline-flex items-center text-xs ml-3 lg:py-1 lg:px- px-3 py-1 justify-center font-medium text-center text-[#021D39] border border-[#021D39] rounded-md  hover:text-white hover:bg-[#021D39]  hover:bg-opacity-90">
-                            READ MORE
-                        </a>
-                        <button data-ripple-light="true" type="button"
-                        
-                            class="select-none rounded-ms rounded-xl bg-[#021D39] ml-3 lg:py-2 lg:px-4 px-3 py-1 text-center align-middle  text-xs font-medium uppercase text-white shadow-md shadow-blue-500/20 transition-all hover:shadow-lg hover:shadow-blue-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none">
-                            Read More
-                        </button>
-                    </p>
-
-                    <p class="lg:mb-12 mb-6 lg:text-xl text-md leading-8 text-black">WORLD INTELLECTUAL PROPERTY DAY
-                        CELEBRATION
-                        your podcast production workflow.
-                        <a href="javascript:void(0)"
-                            class="inline-flex items-center text-xs ml-3 lg:py-1 lg:px- px-3 py-1 justify-center font-medium text-center text-[#021D39] border border-[#021D39] rounded-md  hover:text-white hover:bg-[#021D39]  hover:bg-opacity-90">
-                            READ MORE
-                        </a>
-                    </p>
-
-                    <p class="lg:mb-12 lg:text-xl text-md leading-8 text-black">Sip of Justice in a Battle of Premium
-                        Whiskeys: Analysing the scope of Deceptive Similarity
-                        <a href="javascript:void(0)"
-                            class="inline-flex items-center text-xs ml-3 lg:py-1 lg:px- px-3 py-1 justify-center font-medium text-center text-[#021D39] border border-[#021D39] rounded-md  hover:text-white hover:bg-[#021D39] hover:bg-opacity-90">
-                            READ MORE
-                        </a>
-                    </p>
-                </div>
-            </div>
-            <div class="mb-0 lg:px-8">
-                <img src="https://images.unsplash.com/reserve/uZYSV4nuQeyq64azfVIn_15130980706_64134efc6e_o.jpg?q=80&w=2067&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                    alt="Product screenshot"
-                    class=" rounded-xl shadow-xl ring-1 ring-gray-400/10 w-[60rem] md:-ml-4 lg:-ml-0" width="260"
-                    height="1442">
-            </div>
-
-        </div>
-    </div> -->
-    <!-- OUR BLOGS SECTION END -->
-
-
+    
     <!-- OUR CLIENT START -->
     <div class="max-w-screen-xl mx-auto lg:my-12 py-24 lg:bg-transparent bg-blue-100" data-aos="zoom-in-up"
         data-aos-duration="1500">
