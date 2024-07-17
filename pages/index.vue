@@ -1,9 +1,9 @@
 <template>
 
     <!-- POPUP DISCLAMER START -->
-     <div>
+    <div>
         <PopupDisclaimer />
-     </div>
+    </div>
     <!-- POPUP DISCLAMER END -->
 
     <div class="bg-gradient-to-b ">
@@ -19,9 +19,11 @@
                                 </h1>
                             </div>
                         </h1>
-                        <p class="mt-8 text-base text-black sm:text-xl">Lorem ipsum dolor sit amet consectetur
-                            adipisicing elit. Temporibus perferendis dicta, blanditiis iusto vel et incidunt quisquam
-                            commodi illum magni distinctio dignissimos tempore!</p>
+                        <p class="mt-8 text-base text-black sm:text-xl">Welcome to The Greatest & Strongest Firm You Can
+                            Trust, where excellence meets reliability. Our firm is dedicated to providing unparalleled
+                            services with a commitment to integrity, innovation, and excellence. We pride ourselves on
+                            being a trustworthy partner for all your needs, ensuring that you receive the best solutions
+                            tailored to your unique requirements.</p>
 
                         <div class="mt-10 sm:flex sm:items-center sm:space-x-8">
                             <a href="#" title=""
@@ -272,7 +274,7 @@
             </div>
         </section>
     </div>
-    
+
     <!-- OUR CLIENT START -->
     <div class="max-w-screen-xl mx-auto lg:my-12 py-24 lg:bg-transparent bg-blue-100" data-aos="zoom-in-up"
         data-aos-duration="1500">

@@ -7,12 +7,12 @@
                         <span class="text- text-5xl">Dumplings of Delight: Famous ‘Dolma’ Aunty wins trade mark battle
                             over her iconic momos’ joint name</span>
                     </h1>
-                    <p class="text-slate-400 text-start mt-4">
+                    <!-- <p class="text-slate-400 text-start mt-4">
                         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo
                         itaque facilis id nihil exercitationem architecto, amet obcaecati
                         cum mollitia quasi recusandae cumque officiis maiores magni aliquid
                         nesciunt, neque in voluptate?
-                    </p>
+                    </p> -->
                 </div>
             </div>
         </div>

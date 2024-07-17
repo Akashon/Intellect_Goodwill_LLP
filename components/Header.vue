@@ -3,8 +3,8 @@
     <header class="">
       <section class="bg-[#021D39] min-h-[40px] px-4 py-4 sm:px-10 flex items-center max-sm:flex-col">
         <button type="button" class="text-white text-sm items-center">
-          <i class="fa-solid fa-phone-volume mr-3"></i>
-          09425318625 / 09893055685
+          <i class="fa-solid fa-phone-volume mr-3"></i><a href="tel:9425318625">09425318625</a> <a href="tel:9893055685">/ 09893055685</a>
+           
         </button>
         <span class="border-l h-3 mx-6 max-sm:hidden"></span>
         <button type="button" class="text-white text-sm max-sm:my-2 items-center">
@@ -13,16 +13,16 @@
         </button>
         <div class="sm:ml-auto text-white">
           <ul class="flex space-x-6">
-            <li> <a href=""><i
+            <li> <a href="https://www.facebook.com/people/Intellect-Goodwill/100054228290681/"><i
                   class="fa-brands fa-facebook text-gray-300 hover:text-white duration-500 w-7 h-7 text-xl"></i></a>
             </li>
-            <li> <a href=""><i
+            <li> <a href="https://www.linkedin.com/company/intellect-goodwill?_l=en_US"><i
                   class="fa-brands fa-linkedin-in text-gray-300 hover:text-white duration-500 w-7 h-7 text-xl"></i></a>
             </li>
-            <li> <a href=""><i
+            <li> <a href="https://workspaceupdates.googleblog.com/2023/04/new-community-features-for-google-chat-and-an-update-currents%20.html"><i
                   class="fa-brands fa-google text-gray-300 hover:text-white duration-500 w-7 h-7 text-xl"></i></a>
             </li>
-            <li> <a href=""><i
+            <li> <a href="https://x.com/i/flow/login?redirect_after_login=%2Fintellectgdwill"><i
                   class="fa-brands fa-x-twitter text-gray-300 hover:text-white duration-500 w-7 h-7 text-xl"></i></a>
             </li>
           </ul>
@@ -104,17 +104,17 @@
                     class='hover:text-[#007bff] text-gray-600 text-sm font-bold block'>TRADEMARK
                     REG. PROCESS</a>
                 </li>
-                <li class='border-b py-1.5 '><a href='/trademark/trademark-reg-cites
+                <!-- <li class='border-b py-1.5 '><a href='/trademark/trademark-reg-cites
                                     ' class='hover:text-[#007bff] text-gray-600 text-sm font-bold block'>TRADEMARK
                     REG. CITIES</a>
-                </li>
+                </li> -->
                 <li class="group max-lg:border-b max-lg:py-3 relative list-none">
                   <details class="">
                     <summary class="bg-blue-100 border-b py-1.5 rounded-l-lg border-[#021D39]">
                       <span class="font-semibold text-sm">STARTUP REG.</span>
                     </summary>
                     <ul class="ml-8 space-y-4">
-                      <li class='border-b py-1.5 '><a href='trademark/startup-reg/geographical-indignation-reg'
+                      <li class='border-b py-1.5 '><a href='/trademark/startup-reg/geographical-indignation-reg'
                           class='hover:text-[#007bff] text-gray-600 text-xs font-bold block'>GEOGRAPHICAL INDIGNATION REG.</a>
                       </li>
                     </ul>
@@ -137,10 +137,10 @@
                     class='hover:text-[#007bff] text-gray-600 text-sm font-bold block'>COPYRIGHT
                     REG. PROCESS </a>
                 </li>
-                <li class='border-b py-1.5 '><a href='/trademark/trademark-reg-cites'
+                <!-- <li class='border-b py-1.5 '><a href='/trademark/trademark-reg-cites'
                     class='hover:text-[#007bff] text-gray-600 text-sm font-bold block'>COPYRIGHT
                     REG. CITIES</a>
-                </li>
+                </li> -->
               </ul>
             </li>
             <!-- COPYRIGHT DROP LIST END -->
@@ -161,10 +161,10 @@
                     class='hover:text-[#007bff] text-gray-600 text-sm font-bold block'>PATENT REG.
                     PROCESS</a>
                 </li>
-                <li class='border-b py-1.5 '><a href='/trademark/trademark-reg-cites'
+                <!-- <li class='border-b py-1.5 '><a href='/trademark/trademark-reg-cites'
                     class='hover:text-[#007bff] text-gray-600 text-sm font-bold block'>PATENT REG.
                     CITIES</a>
-                </li>
+                </li> -->
               </ul>
             </li>
             <!-- PATENT DROP LIST END -->
@@ -181,10 +181,10 @@
                     class='hover:text-[#007bff] text-gray-600 text-sm font-bold block'>DESIGN REG.
                     PROCESS</a>
                 </li>
-                <li class='border-b py-1.5 '><a href='/trademark/trademark-reg-cites'
+                <!-- <li class='border-b py-1.5 '><a href='/trademark/trademark-reg-cites'
                     class='hover:text-[#007bff] text-gray-600 text-sm font-bold block'>DESIGN REG.
                     CITIES</a>
-                </li>
+                </li> -->
               </ul>
             </li>
             <!-- DESIGN DROP LIST END -->
@@ -222,9 +222,9 @@
                     </ul>
                   </details>
                 </li>
-                <li class='border-b py-1.5 '><a href='/ISO-Certification/iso_cert_cities'
+                <!-- <li class='border-b py-1.5 '><a href='/ISO-Certification/iso_cert_cities'
                     class='hover:text-[#007bff] text-gray-600 text-sm font-bold block'>ISO CERT CITIES</a>
-                </li>
+                </li> -->
                 <li class='border-b py-1.5 '><a href='/ISO-Certification/iso-9001-2008-cert'
                     class='hover:text-[#007bff] text-gray-600 text-sm font-bold block'>ISO 9001 2008 CERT</a>
                 </li>
@@ -262,7 +262,7 @@
 
             <div class="w-px h-5 bg-black/20"></div>
 
-            <a href="#" title=""
+            <a href="tel:9425318625" title=""
               class="inline-flex items-center bg-black text-white justify-center px-5 py-2.5 text-base font-semibold border-2 border-black hover:bg-white hover:text-black transition-all duration-700 focus:bg-black focus:text-white"><i
                 class="fa-solid fa-phone-volume"></i></a>
 

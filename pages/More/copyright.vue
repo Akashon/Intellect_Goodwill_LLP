@@ -5,10 +5,10 @@
                 <div class="max-w-7xl">
                     <h1 class="text-4xl mt-16 font-bold text-left text-white"><span class="text- text-5xl">Copyright Registration Services
                         </span></h1>
-                    <p class="text-slate-400 text-start mt-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    <!-- <p class="text-slate-400 text-start mt-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                         Explicabo itaque facilis id nihil
                         exercitationem architecto, amet obcaecati cum mollitia quasi recusandae cumque officiis maiores
-                        magni aliquid nesciunt, neque in voluptate?</p>
+                        magni aliquid nesciunt, neque in voluptate?</p> -->
                 </div>
             </div>
         </div>

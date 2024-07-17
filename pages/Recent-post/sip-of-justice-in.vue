@@ -7,12 +7,12 @@
                         <span class="text- text-5xl">Sip of Justice in a Battle of Premium Whiskeys: Analysing the scope
                             of Deceptive Similarity</span>
                     </h1>
-                    <p class="text-slate-400 text-start mt-4">
+                    <!-- <p class="text-slate-400 text-start mt-4">
                         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo
                         itaque facilis id nihil exercitationem architecto, amet obcaecati
                         cum mollitia quasi recusandae cumque officiis maiores magni aliquid
                         nesciunt, neque in voluptate?
-                    </p>
+                    </p> -->
                 </div>
             </div>
         </div>
