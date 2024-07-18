@@ -4,7 +4,7 @@
             style="background-image: url(/images/patent.jpg);">
             <div class="flex items-center justify-center w-full h-full bg-[#0D1057] bg-opacity-50">
                 <div class="max-w-7xl">
-                    <h1 class="text-4xl mt-16 font-bold text-left text-white"><span class="text- text-5xl">Best Patent Registration Services in India
+                    <h1 class=" mt-16 font-bold text-left text-white"><span class="text-3xl lg:text-5xl">Best Patent Registration Services in India
                     </span></h1>
                 <!-- <p class="text-slate-400 text-start mt-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                     Explicabo itaque facilis id nihil

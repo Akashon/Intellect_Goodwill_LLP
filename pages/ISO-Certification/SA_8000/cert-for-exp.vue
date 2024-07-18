@@ -3,7 +3,7 @@
         <div class="w-full bg-center bg-cover h-96" style="background-image: url(/images/iso.avif);">
             <div class="flex items-center justify-center w-full h-full bg-[#0D1057] bg-opacity-50">
                 <div class="max-w-7xl">
-                    <h1 class="text-4xl mt-16 font-bold text-left text-white"><span class="text- text-5xl">Social
+                    <h1 class=" mt-16 font-bold text-left text-white"><span class="text-3xl lg:text-5xl">Social
                             Accountability 8000 certification for Export
                         </span></h1>
                     <!-- <p class="text-slate-400 text-start mt-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit.

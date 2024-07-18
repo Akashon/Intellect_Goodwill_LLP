@@ -4,7 +4,7 @@
             style="background-image: url(https://images.unsplash.com/photo-1517048676732-d65bc937f952?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);">
             <div class="flex items-center justify-center w-full h-full bg-[#0D1057] bg-opacity-50">
                 <div class="max-w-7xl">
-                    <h1 class="text-4xl mt-16 font-bold text-left text-white"><span class="text- text-5xl"> Professional Team Meet Our
+                    <h1 class=" mt-16 font-bold text-left text-white"><span class="text-3xl lg:text-5xl"> Professional Team Meet Our
                     </span></h1>
                 <!-- <p class="text-slate-400 text-start mt-4">
                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.

@@ -3,8 +3,8 @@
         <div class="w-full bg-center bg-cover h-96" style="background-image: url(/images/Recent.avif)">
             <div class="flex items-center justify-center w-full h-full bg-[#0D1057] bg-opacity-50">
                 <div class="max-w-7xl">
-                    <h1 class="text-4xl mt-16 font-bold text-left text-white">
-                        <span class="text- text-5xl">In addition to registered brands, now un-registered food brands
+                    <h1 class=" mt-16 font-bold text-left text-white">
+                        <span class="text-3xl lg:text-5xl">In addition to registered brands, now un-registered food brands
                             also to attract 5% GST
                         </span>
                     </h1>
