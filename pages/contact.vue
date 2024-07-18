@@ -19,10 +19,12 @@
                     <h1 class="font-bold text-xl mb-2">Head Office – Mumbai</h1>
                     <p class="font-bold text-md mb-2 text-gray-500">702-A , PV-15 , Haridas Nagar , Shimpoli Road
                         Borivali ( West ) , Mumbai , 400092 , India</p>
-                    <p class="font-bold text-sm mb-4 text-gray-500">Mobile : <a href="tel:9702246481">+91-9702246481,</a> <a href="tel:9425318625">+91-9425318625</a> </p>
+                    <p class="font-bold text-sm mb-4 text-gray-500">Mobile : <a
+                            href="tel:9702246481">+91-9702246481,</a> <a href="tel:9425318625">+91-9425318625</a> </p>
+                    <br>
                     <a href="https://www.google.co.in/maps/place/Intellect+Goodwill+-+Trademark+%26+Patent+Registration+Mumbai/@19.220935,72.8423903,17z/data=!3m1!4b1!4m5!3m4!1s0x3be7b12cbbf0a6ff:0xe66c75f2def34103!8m2!3d19.220935!4d72.844579"
                         title=""
-                        class="inline-flex items-center justify-center px-5 py-2.5 text-base font-semibold text-black border-2 border-black hover:bg-black hover:text-white transition-all duration-700 focus:bg-black focus:text-white"
+                        class="inline-flex  items-center justify-center px-5 py-2.5 text-base font-semibold text-black border-2 border-black hover:bg-black hover:text-white transition-all duration-700 focus:bg-black focus:text-white"
                         role="button"> <i class="fa-solid fa-map-location-dot"></i></a>
                 </div>
 
@@ -30,11 +32,14 @@
                     <h1 class="font-bold text-xl mb-2">Branch Office –</h1>
                     <p class="font-bold text-md mb-2 text-gray-500">( M.P. & C.G. )- 69,Patrakar
                         Colony, Indore (M.P.) , Pin- 452018, India</p>
-                    <a href="tel:9893055685" class="font-bold text-sm mb-4 text-gray-500">Mobile: <a href="tel:9893055685">+91-9893055685,</a><a href="tel:731-2492625">+91-731-2492625,</a> Fax :
-                        +91-0731-2492625</a>
+                    <p class="font-bold text-sm mb-4 text-gray-500">Mobile: <a
+                            href="tel:9893055685">+91-9893055685,</a><a href="tel:731-2492625">+91-731-2492625,</a> Fax
+                        :
+                        +91-0731-2492625</p>
+                    <br>
                     <a href="https://www.google.co.in/maps/place/Intellect+Goodwill/@22.718843,75.8847453,17z/data=!3m1!4b1!4m2!3m1!1s0x3962fd3a6acfd1c1:0x60052bf71159a8e6"
                         title=""
-                        class="inline-flex items-center justify-center px-5 py-2.5 text-base font-semibold text-black border-2 border-black hover:bg-black hover:text-white transition-all duration-700 focus:bg-black focus:text-white"
+                        class="inline-flex  items-center justify-center px-5 py-2.5 text-base font-semibold text-black border-2 border-black hover:bg-black hover:text-white transition-all duration-700 focus:bg-black focus:text-white"
                         role="button"> <i class="fa-solid fa-map-location-dot"></i></a>
 
 
@@ -43,10 +48,12 @@
                     <h1 class="font-bold text-xl mb-2">Branch Office –</h1>
                     <p class="font-bold text-md mb-2 text-gray-500">Rajasthan-G-1, K-55, Shyam Nagar,
                         Kishan Nagar, Jaipur (Rajasthan) 302019- India</p>
-                    <a href="tel:9893055685" class="font-bold text-sm mb-4 text-gray-500">Mobile : +91-9893055685</a>
+                    <p class="font-bold text-sm mb-4 text-gray-500">Mobile :<a href="tel:9893055685">+91-9893055685,</a>
+                    </p>
+                    <br>
                     <a href="https://www.google.co.in/maps/place/Intellect+Goodwill+-+Trademark+%26+Patent+Registration+Jaipur/@26.8891968,75.7625983,17z/data=!3m1!4b1!4m2!3m1!1s0x396db48aa1c93435:0x29cd2fe4c1bc535f"
                         title=""
-                        class="inline-flex items-center justify-center px-5 py-2.5 text-base font-semibold text-black border-2 border-black hover:bg-black hover:text-white transition-all duration-700 focus:bg-black focus:text-white"
+                        class="inline-flex  items-center justify-center px-5 py-2.5 text-base font-semibold text-black border-2 border-black hover:bg-black hover:text-white transition-all duration-700 focus:bg-black focus:text-white"
                         role="button"> <i class="fa-solid fa-map-location-dot"></i></a>
 
                 </div>
@@ -54,10 +61,12 @@
                     <h1 class="font-bold text-xl mb-2">Branch Office –</h1>
                     <p class="font-bold text-md mb-2 text-gray-500">Hydrabad-4-4-43 / 46 , Pandit
                         Bheemsen Joshi Marg, Sultan Bazar , Street No.- 6 Hyderabad, 500095, India</p>
-                    <a href="tel:808002231" class="font-bold text-sm mb-4 text-gray-500">Mobile : <a href="tel:808002231">+91-808002231,</a> <a href="tel:9425318625">+91-9425318625</a> </a>
+                    <p class="font-bold text-sm mb-4 text-gray-500">Mobile : <a
+                            href="tel:808002231">+91-808002231,</a> <a href="tel:9425318625">+91-9425318625</a> </p>
+                    <br>
                     <a href="https://www.google.co.in/maps/place/Intellect+Goodwill+-+Trademark+%26+Patent+Registration+Hyderabad/@17.391799,78.47643,15z/data=!4m2!3m1!1s0x0:0x33dc7c45c753288b"
                         title=""
-                        class="inline-flex items-center justify-center px-5 py-2.5 text-base font-semibold text-black border-2 border-black hover:bg-black hover:text-white transition-all duration-700 focus:bg-black focus:text-white"
+                        class="inline-flex  items-center justify-center px-5 py-2.5 text-base font-semibold text-black border-2 border-black hover:bg-black hover:text-white transition-all duration-700 focus:bg-black focus:text-white"
                         role="button"> <i class="fa-solid fa-map-location-dot"></i></a>
 
                 </div>
@@ -113,7 +122,7 @@
                     </li>
                 </ul>
             </div>
-            <div class="z-10 relative h-full max-md:min-h-[350px]">
+            <div class="z-10 relative h-full max-md:min-h-[350px] ">
                 <iframe
                     src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d58884.047945086015!2d75.886844!3d22.718836!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3962fd3a181e5ccb%3A0xb5241cbb1a8b390d!2sMahasagar%20Corporate%2C%20Gita%20Bhawan%20Rd%2C%20Manorama%20Ganj%2C%20Indore%2C%20Madhya%20Pradesh%20452001!5e0!3m2!1sen!2sin!4v1717839634925!5m2!1sen!2sin"
                     class="left-0 w-full h-full top-0 rounded-t-lg lg:rounded-tr-none lg:rounded-bl-lg" frameborder="0"

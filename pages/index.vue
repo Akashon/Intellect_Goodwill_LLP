@@ -129,7 +129,7 @@
             <!-- TRADEMARK END -->
 
             <!-- ISO CERTIFICATION START -->
-            <div class="text-center px-10" data-aos="fade-up-left" data-aos-duration="1500">
+            <div class="text-center px-10" data-aos="fade-up-right" data-aos-duration="1500">
                 <h1 class="text-4xl mt-20 font-bold text-left text-gray-700"> <span class="text-[#021D39] text-5xl">
                         ISO Certification
                     </span>in Asia</h1>
