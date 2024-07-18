@@ -3,7 +3,8 @@
     <header class="">
       <section class="bg-[#021D39] min-h-[40px] px-4 py-4 sm:px-10 flex items-center max-sm:flex-col">
         <button type="button" class="text-white text-sm items-center">
-          <i class="fa-solid fa-phone-volume mr-3"></i><a href="tel:9425318625">09425318625</a> <a href="tel:9893055685">/ 09893055685</a>
+          <i class="fa-solid fa-phone-volume mr-3"></i><a href="tel:9425318625">09425318625</a> <a
+            href="tel:9893055685">/ 09893055685</a>
         </button>
         <span class="border-l h-3 mx-6 max-sm:hidden"></span>
         <button type="button" class="text-white text-sm max-sm:my-2 items-center">
@@ -18,7 +19,8 @@
             <li> <a href="https://www.linkedin.com/company/intellect-goodwill?_l=en_US"><i
                   class="fa-brands fa-linkedin-in text-gray-300 hover:text-white duration-500 w-7 h-7 text-xl"></i></a>
             </li>
-            <li> <a href="https://workspaceupdates.googleblog.com/2023/04/new-community-features-for-google-chat-and-an-update-currents%20.html"><i
+            <li> <a
+                href="https://workspaceupdates.googleblog.com/2023/04/new-community-features-for-google-chat-and-an-update-currents%20.html"><i
                   class="fa-brands fa-google text-gray-300 hover:text-white duration-500 w-7 h-7 text-xl"></i></a>
             </li>
             <li> <a href="https://x.com/i/flow/login?redirect_after_login=%2Fintellectgdwill"><i
@@ -59,43 +61,48 @@
             <!-- Animated menu section -->
             <transition name="slide">
               <div :class="{ 'translate-x-0': mobileMenuOpen, '-translate-x-full': !mobileMenuOpen }"
-                class="fixed inset-y-0 left-0 z-50 w-48 bg-[#021D39] lg:hidden overflow-y-auto ease-in-out duration-300 transform">
-                <ul class="text-white text-center my-12">
+                class="fixed inset-y-0 left-0 z-50 w-64 bg-[#021D39] lg:hidden overflow-y-auto ease-in-out duration-300 transform">
+              <div class="flex justify-end px-4 py-4">
+                <button  class="px-2 py-0.5 bg-white text-black focus:outline-none hover:bg-gray-800 border">
+                  <i class="fa fa-close " @click="closeMobileMenu" ></i>
+                </button>
+              </div>
+                <ul class="text-white text-start my-2 mx-2">
                   <li v-for="menu in menus" :key="menu.link"
-                    class="hover:underline divide-y hover:underline-offset-4 text-[15px] transition-all duration-100 ease-linear py-1 pr-4 pl-3 rounded text-white lg: lg:text-primary-700 leading-6 font-medium text-[#3C85F6] hover:text-orange-600 focus:outline-none focus:text-orange-600">
+                    class="hover:underline text-white py-2 text-[15px] divide-y hover:underline-offset-4  transition-all duration-100 ease-linear font-bold pr-4 pl-3 rounded lg: lg:text-primary-700 leading-6 hover:text-[#3C85F6] focus:outline-none focus:text-orange-600">
                     <router-link :to="menu.link" @click="closeMobileMenu">{{ menu.title }}</router-link>
                   </li>
                   <!-- About DROP LIST START -->
-                  <li class='group max-lg:border-b max-lg:py-3 relative list-none'>
+                  <li class='group max-lg:border-b max-lg:py-3 relative list-none py-1 pr-4 pl-3'>
                     <a href='javascript:void(0)'
                       class='hover:text-[#007bff] text-white text-[15px] font-bold lg:hover:fill-[#007bff] block'>About
                       <i class="fa-solid fa-chevron-down ml-1 inline-block" width="16px" height="16px"></i>
                     </a>
                     <ul
-                      class='absolute rounded-xl text-start shadow-lg bg-white space-y-1 lg:top-5 max-lg:top-8 -left-0 min-w-[48px] z-50 max-h-0 overflow-hidden group-hover:opacity-100 group-hover:max-h-[220px] px-6 group-hover:pb-2 group-hover:pt-2 transition-all duration-500'>
-                      <li class='border-b py- '><a href='/about/team'
+                      class='absolute rounded-xl ri text-start shadow-lg bg-white space-y-1 lg:top-5 max-lg:top-8 -left-0 min-w-[48px] z-50 max-h-0 overflow-hidden group-hover:opacity-100 group-hover:max-h-[240px] px-6 group-hover:pb-2 group-hover:pt-2 transition-all duration-500'>
+                      <li class='border-b py-1.5 '><a href='/about/team'
                           class='hover:text-[#007bff] text-gray-600 text-sm font-bold block'>TEAM</a>
                       </li>
-                      <li class='border-b py- '><a href='/about/publish'
+                      <li class='border-b py-1.5 '><a href='/about/publish'
                           class='hover:text-[#007bff] text-gray-600 text-sm font-bold block'>PUBLICATION</a>
                       </li>
-                      <li class='border-b py- '><a href='/about/law'
+                      <li class='border-b py-1.5 '><a href='/about/law'
                           class='hover:text-[#007bff] text-gray-600 text-sm font-bold block'>LAW</a>
                       </li>
-                      <li class='border-b py- '><a href='javascript:void(0)'
+                      <li class='border-b py-1.5 '><a href='javascript:void(0)'
                           class='hover:text-[#007bff] text-gray-600 text-sm font-bold block'>OUR
                           CLIENTS</a></li>
-                      <li class='border-b py- '><a href='/about/gallery'
+                      <li class='border-b py-1.5 '><a href='/about/gallery'
                           class='hover:text-[#007bff] text-gray-600 text-sm font-bold block'>GALLERY</a>
                       </li>
-                      <li class='border-b py- '><a href='/about/faq'
+                      <li class='border-b py-1.5 '><a href='/about/faq'
                           class='hover:text-[#007bff] text-gray-600 text-sm font-bold block'>FAQ</a>
                       </li>
                     </ul>
                   </li>
                   <!-- About DROP LIST END -->
                   <!-- TRADEMARK DROP LIST START -->
-                  <li class='group max-lg:border-b max-lg:py-3 relative list-none'>
+                  <li class='group max-lg:border-b max-lg:py-3 relative list-none py-1 pr-4 pl-3'>
                     <a href='javascript:void(0)'
                       class='hover:text-[#007bff] text-white text-[15px] font-bold lg:hover:fill-[#007bff] block'>Trademark
                       <i class="fa-solid fa-chevron-down ml-1 inline-block" width="16px" height="16px"></i>
@@ -116,25 +123,23 @@
                 </li> -->
                       <li class="group max-lg:border-b max-lg:py-3 relative list-none">
                         <details class="">
-                          <summary class="bg-blue-100 border-b py-1.5 rounded-l-lg border-[#021D39]">
+                          <summary class="bg-blue-400 border-b py-1.5 rounded-l-lg border-[#021D39]">
                             <span class="font-semibold text-sm">STARTUP REG.</span>
                           </summary>
                           <ul class="ml-8 space-y-4">
                             <li class='border-b py-1.5 '><a href='/trademark/startup-reg/geographical-indignation-reg'
                                 class='hover:text-[#007bff] text-gray-600 text-xs font-bold block'>GEOGRAPHICAL
-                                INDIGNATION
-                                REG.</a>
+                                INDIGNATION REG.</a>
                             </li>
                           </ul>
                         </details>
                       </li>
-
                     </ul>
                   </li>
                   <!-- TRADEMARK DROP LIST END -->
 
                   <!-- COPYRIGHT DROP LIST START -->
-                  <li class='group max-lg:border-b max-lg:py-3 relative list-none'>
+                  <li class='group max-lg:border-b max-lg:py-3 relative list-none py-1 pr-4 pl-3'>
                     <a href='javascript:void(0)'
                       class='hover:text-[#007bff] text-white text-[15px] font-bold lg:hover:fill-[#007bff] block'>Copyrights
                       <i class="fa-solid fa-chevron-down ml-1 inline-block" width="16px" height="16px"></i>
@@ -154,13 +159,13 @@
                   <!-- COPYRIGHT DROP LIST END -->
 
                   <!-- PATENT DROP LIST START -->
-                  <li class='group max-lg:border-b max-lg:py-3 relative list-none'>
+                  <li class='group max-lg:border-b max-lg:py-3 relative list-none py-1 pr-4 pl-3'>
                     <a href='javascript:void(0)'
                       class='hover:text-[#007bff] text-white text-[15px] font-bold lg:hover:fill-[#007bff] block'>Patent
                       <i class="fa-solid fa-chevron-down ml-1 inline-block" width="16px" height="16px"></i>
                     </a>
                     <ul
-                      class='absolute rounded-xl text-start shadow-lg bg-white space-y-1 lg:top-5 max-lg:top-8 -left-0 min-w-[48px] z-50 max-h-0 overflow-hidden group-hover:opacity-100 group-hover:max-h-[220px] px-6 group-hover:pb-2 group-hover:pt-2 transition-all duration-500'>
+                      class='absolute rounded-xl text-start shadow-lg bg-white space-y-1 lg:top-5 max-lg:top-8 -left-0 min-w-[48px] z-50 max-h-0 overflow-auto group-hover:opacity-100 group-hover:max-h-[220px] px-6 group-hover:pb-2 group-hover:pt-2 transition-all duration-500'>
                       <li class='border-b py-1.5 '><a href='/patent/patent-reg-in-india'
                           class='hover:text-[#007bff] text-gray-600 text-sm font-bold block'>PATENT REG.
                           SERVICES INDIA</a>
@@ -178,7 +183,7 @@
                   <!-- PATENT DROP LIST END -->
 
                   <!-- DESIGN DROP LIST START -->
-                  <li class='group max-lg:border-b max-lg:py-3 relative list-none'>
+                  <li class='group max-lg:border-b max-lg:py-3 relative list-none py-1 pr-4 pl-3'>
                     <a href='javascript:void(0)'
                       class='hover:text-[#007bff] text-white text-[15px] font-bold lg:hover:fill-[#007bff] block'>Design
                       <i class="fa-solid fa-chevron-down ml-1 inline-block" width="16px" height="16px"></i>
@@ -198,17 +203,17 @@
                   <!-- DESIGN DROP LIST END -->
 
                   <!-- ISO CERTIFICATION START -->
-                  <li class='group max-lg:border-b max-lg:py-3 relative list-none'>
+                  <li class='group max-lg:border-b max-lg:py-3 relative list-none py-1 pr-4 pl-3'>
                     <a href='javascript:void(0)'
                       class='hover:text-[#007bff] text-white text-[15px] font-bold lg:hover:fill-[#007bff] block'>ISO
                       Certification
                       <i class="fa-solid fa-chevron-down ml-1 inline-block" width="16px" height="16px"></i>
                     </a>
                     <ul
-                      class='absolute shadow-lg bg-white space-y-3 lg:top-5 max-lg:top-8 -left-6 min-w-[250px] z-10 max-h-0 overflow-hidden group-hover:opacity-100 group-hover:max-h-[700px] px-6 group-hover:pb-4 group-hover:pt-6 transition-all duration-500'>
+                      class='absolute rounded-xl text-start shadow-lg bg-white space-y-1 lg:top-5 max-lg:top-8 -left-0 min-w-[48px] z-50 max-h-0 overflow-auto group-hover:opacity-100 group-hover:max-h-[220px] px-6 group-hover:pb-2 group-hover:pt-2 transition-all duration-500'>
                       <!-- <li class='border-b py-1.5 '><a href='javascript:void(0)'
-                    class='hover:text-[#007bff] text-gray-600 text-sm font-bold block'>SA 8000</a>
-                </li> -->
+                        class='hover:text-[#007bff] text-gray-600 text-sm font-bold block'>SA 8000</a>
+                      </li> -->
                       <li class="group max-lg:border-b max-lg:py-3 relative list-none">
                         <details class="">
                           <summary class="bg-blue-400 border-b py-1.5 rounded-l-lg border-[#021D39]">
@@ -338,7 +343,8 @@
                     </summary>
                     <ul class="ml-8 space-y-4">
                       <li class='border-b py-1.5 '><a href='/trademark/startup-reg/geographical-indignation-reg'
-                          class='hover:text-[#007bff] text-gray-600 text-xs font-bold block'>GEOGRAPHICAL INDIGNATION REG.</a>
+                          class='hover:text-[#007bff] text-gray-600 text-xs font-bold block'>GEOGRAPHICAL INDIGNATION
+                          REG.</a>
                       </li>
                     </ul>
                   </details>
@@ -562,13 +568,3 @@ export default {
   transform: translateX(0);
 }
 </style>
-
-
-
-
-
-
-
-
-
-
